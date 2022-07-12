@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.2.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.3.0" />
+    <PackageReference Include="Selenium.Support" Version="4.3.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="103.0.5060.5300" />
+    <PackageReference Include="SeleniumExtras.WaitHelpers" Version="1.0.2" />
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects" Version="3.11.0" />
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects.Core" Version="4.3.0" />
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects.Core.Linq" Version="1.0.0" />
+    <PackageReference Include="Selenium.Community.PageObjects" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Selenium.WebDriver" />
+    <None Remove="Selenium.Support" />
+    <None Remove="Selenium.WebDriver.ChromeDriver" />
+    <None Remove="Nueva carpeta\" />
+    <None Remove="SeleniumExtras.WaitHelpers" />
+    <None Remove="POM\" />
+    <None Remove="DotNetSeleniumExtras.PageObjects" />
+    <None Remove="DotNetSeleniumExtras.WaitHelpers" />
+    <None Remove="Test\" />
+    <None Remove="DotNetSeleniumExtras.PageObjects.Core" />
+    <None Remove="DotNetSeleniumExtras.PageObjects.Core.Linq" />
+    <None Remove="Selenium.Community.PageObjects" />
+    <None Remove="PagesObject\UPN\" />
+    <None Remove="Test\UPN\" />
+    <None Remove="PagesObject\UPN\Intranet\" />
+    <None Remove="Utilitarios\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PagesObject\" />
+    <Folder Include="Test\" />
+    <Folder Include="PagesObject\UPN\" />
+    <Folder Include="Test\UPN\" />
+    <Folder Include="PagesObject\UPN\Intranet\" />
+    <Folder Include="Utilitarios\" />
+  </ItemGroup>
+</Project>
